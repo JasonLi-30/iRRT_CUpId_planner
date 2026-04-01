@@ -1,0 +1,9 @@
+<library path="moveit_my_planner_adapter">
+
+  <class name="my_planner/PlannerAdapter" type="my_planner::PlannerAdapter"
+         base_class_type="planning_request_adapter::PlanningRequestAdapter">
+    <description>
+    </description>
+  </class>
+
+</library>

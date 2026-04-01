@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>moveit_myplanner_adapter</name>
+  <description>MoveIt planning request adapter utilizing iRRT_CUpId Planner for path planning</description>
+  <version>2.5.5</version>
+  <maintainer email="hzsglsj@163.com">Shengjie Li</maintainer>
+
+  <license>BSD</license>
+
+  <author email="hzsglsj@163.com">Shengjie Li</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>moveit_common</depend>
+
+  <depend>moveit_core</depend>
+  <depend>myplanner_motion_planner</depend>
+  <depend version_gte="1.11.2">pluginlib</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <moveit_core plugin="${prefix}/my_planner_adapter_plugin_description.xml"/>
+  </export>
+</package>
