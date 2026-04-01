@@ -1,0 +1,9 @@
+<library path="lib/libmyplanner_motion_planner">
+  <class name="my_planner/iRRT_CUpId"
+         type="my_planner::iRRT_CUpId"
+         base_class_type="planning_interface::PlannerManager">
+    <description>
+      iRRT-CUpId planner plugin for MoveIt2
+    </description>
+  </class>
+</library>
