@@ -1,0 +1,7 @@
+<library path="moveit_my_planner_plugin">
+  <class name="my_interface/iRRT_CUpId_Planner" type="my_interface::iRRT_CUpId_PlannerManager" base_class_type="planning_interface::PlannerManager">
+    <description>
+    My motion planner plugin.
+    </description>
+  </class>
+</library>

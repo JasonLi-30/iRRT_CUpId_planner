@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>moveit_planners_myplanner</name>
+  <version>2.5.5</version>
+  <description>The interface for using iRRT_CUp within MoveIt</description>
+
+  <maintainer email="hzsglsj@163.com">Shengjie Li</maintainer>
+
+  <license>BSD</license>
+
+  <author email="hzsglsj@163.com">Shengjie Li</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>moveit_common</depend>
+
+  <depend>myplanner_motion_planner</depend>
+  <depend>moveit_core</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
